@@ -1,0 +1,2 @@
+ohayou;bonjour
+sayounara;aurevoir

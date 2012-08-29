@@ -1,0 +1,9 @@
+<div id="view-content">
+	<?php $this->form->setAction($this->url());
+	      echo $this->form; ?>
+	<div>
+	<?php if(isset($this->messages)): ?>
+        <p class="<?= $this->escape($this->messages[1]) ?> message"><?= $this->escape($this->messages[0]) ?><p>
+    <?php endif; ?>
+	</div>
+</div>

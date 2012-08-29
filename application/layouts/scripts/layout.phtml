@@ -1,0 +1,30 @@
+<!-- application/layouts/scripts/layout.phtml -->
+<?= $this->doctype() . "\n" ?>
+<html>
+<head>
+<?= $this->headMeta()->setIndent('    ')
+    ->prependHttpEquiv('Content-Style-Type', 'text/css'). "\n"; ?>
+<?= $this->headTitle($this->escape($this->siteInfo('title')))
+    ->setIndent('    ')->setSeparator(' / ') . "\n    "; ?>
+<?= $this->headLink()->setIndent('    ')
+    ->appendStylesheet('/quizz/public/css/page.css') . "\n"; ?>
+<? if ($this->siteInfo('keywords')): ?>
+    <meta name="keywords" content="<?= $this->escape($this->siteInfo('keywords')) ?>"/>
+<? endif; ?>
+<? if($this->siteInfo('description')): ?>
+    <meta name="description" content="<?= $this->escape($this->siteInfo('description')) ?>"/>
+<? endif; ?>
+</head>
+<body>
+    <div id="haut">
+        <div id="hautgauche">&nbsp;</div>
+        <?php echo $this->escape($this->siteInfo('title')); ?>
+        <div id="soustitre">Test running</div>
+    </div>
+    <div id="basgauche" name="gauche">&nbsp;</div>
+    <div id="basdroite" name="droite">&nbsp;</div>
+    <div id="corps" name="corps">
+    <?php echo $this->layout()->content ?>
+    </div>
+</body>
+</html>

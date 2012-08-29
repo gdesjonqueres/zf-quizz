@@ -1,0 +1,178 @@
+BODY
+{
+    margin: 0px;
+    padding: 0px;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 10pt;
+    color: black;
+}
+
+A:link, A:active, A:visited
+{
+    text-decoration: none;
+    color: #4A68AE;
+}
+A:hover
+{
+    text-decoration: underline;
+    color: #4A68AE;
+}
+HR
+{
+    border: 1px silver dashed;
+    width: 90%;
+}
+
+#haut {
+	background: transparent url('../img/FondUtilisateur.jpg') repeat-x bottom left;
+	position: absolute;
+    width: 100%;
+    height: 53px; 
+    font-family: "Segoe UI", "Trebuchet MS", Arial, Helvetica, Sans-serif;
+    font-size: 16pt;
+	font-weight: bold;
+	color: #0040a3;
+	/*padding: 5px;
+	margin-left: -5px;
+	margin-right: -5px;
+	margin-bottom: 5px;*/
+	/*border:3px solid #FFCC99;*/
+}
+
+#hautgauche {
+    background: transparent url('../img/nihon2.gif') no-repeat top left;
+    width: 65px;
+    height: 42px;
+    float: left;
+	margin-right: 10px;
+	vertical-align: middle;
+	/*border:3px solid #FFCC99;*/
+}
+
+#soustitre {
+	padding-left: 17px;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 10pt;
+	color: black;
+	vertical-align: top;
+	/*border:3px solid #FFCC99;*/
+}
+
+#basgauche {
+    background: transparent url('../img/perfection.jpg') no-repeat bottom left;
+    position: absolute;
+    width: 160px;
+    left: 10px;
+    bottom: 10px;
+    min-height: 342px;
+    height: 342px;
+    /*border:3px solid #FFCC99;*/
+}
+
+#basdroite {
+    background: white url('../img/nihon.gif') no-repeat bottom right;
+    position: absolute;
+    width: 59px;
+    height: 40px;
+    bottom: 10px;
+    right: 15px;
+    /*border:3px solid #FFCC99;*/
+}
+
+#corps {
+    background: transparent url('../img/fond_nihongo2.jpg') no-repeat fixed;
+    background-position: 190px 80px;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    right: 100px;
+    bottom: 20px;
+    overflow: auto;
+    /*border:3px solid #FFCC99;*/
+}
+
+TABLE.erreur, TABLE.warning, TABLE.aide, TABLE.info, TABLE.valide
+{
+	margin-bottom: 5px;
+	width: 90%;
+}
+TABLE.erreur
+{
+	background-color: #FAE6E8;
+	border: 1px #D81E34 solid;
+}
+TABLE.warning
+{
+	background-color: #FFFFFF;
+	border: 1px #DDDDDD solid;
+}
+TABLE.aide
+{
+	background-color: #EAEEF6;
+	border: 1px #4A68AE solid;
+}
+TABLE.info
+{
+	background-color: #EAEEF6;
+	border: 1px #4A68AE solid;
+}
+TABLE.valide
+{
+	background-color: #EBF3EE;
+	border: 1px #4F9767 solid;
+}
+
+TH
+{
+    text-align: left;
+	font-size: 8pt;
+}
+TH A:link, TH A:active, TH A:visited
+{
+    text-decoration: none;
+    color: black;
+}
+TH A:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+TD
+{
+	font-size: 10pt;
+}
+
+INPUT.texte, SELECT, TEXTAREA, INPUT.bouton, INPUT.actualiser
+{
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	font-size: 8pt;
+}
+INPUT.bouton
+{
+	border: 1px solid #969696;
+	background: #E3E3E3 url("../img/FondBouton.gif") repeat-x center left;
+	cursor: pointer;
+	height: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+INPUT.bouton:hover
+{
+	border: 1px solid #408AFF;
+	background: #E3E3E3 url("../img/FondBouton_over.gif") repeat-x center left;
+}
+INPUT.image
+{
+	border: 0px;
+}
+
+label.word
+{
+	font-weight: bold;
+}
+
+ul.errors li
+{
+	font-weight: bold;
+	color: red;
+}

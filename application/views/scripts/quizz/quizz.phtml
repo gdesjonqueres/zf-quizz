@@ -1,0 +1,9 @@
+<div id="view-content">
+    <?php if(isset($this->mark)): ?>
+    <div>
+        <?php echo $this->escape($this->mark); ?>
+    </div>
+    <?php endif; ?>
+	<?php $this->form->setAction($this->url());
+	      echo $this->form; ?>
+</div>

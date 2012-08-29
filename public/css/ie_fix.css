@@ -1,0 +1,31 @@
+#haut {
+	background-color: white;
+    z-index: 2;
+    height: 53px;
+}
+
+#hautgauche {
+	z-index: 3;
+}
+
+#soustitre {
+	z-index: 2;
+}
+
+#basgauche {
+    z-index: 2;
+}
+
+#basdroite {
+    z-index: 2;
+}
+
+#corps {
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    padding-top: 80px;
+    padding-left: 170px;
+    height: 100%;
+    width: 100%;
+}

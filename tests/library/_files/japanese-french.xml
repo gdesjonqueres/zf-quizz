@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionnary name="japanese-french">
+    <entry>
+        <word>Ohayou</word>
+         <reading>ohayou</reading>
+         <translations>
+            <translation>Bonjour (le matin)</translation>
+         </translations>
+     </entry>
+</dictionnary>
