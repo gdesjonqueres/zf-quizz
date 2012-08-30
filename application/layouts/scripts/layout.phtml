@@ -7,7 +7,7 @@
 <?= $this->headTitle($this->escape($this->siteInfo('title')))
     ->setIndent('    ')->setSeparator(' / ') . "\n    "; ?>
 <?= $this->headLink()->setIndent('    ')
-    ->appendStylesheet('/quizz/public/css/page.css') . "\n"; ?>
+    ->appendStylesheet('/zf-quizz/public/css/page.css') . "\n"; ?>
 <? if ($this->siteInfo('keywords')): ?>
     <meta name="keywords" content="<?= $this->escape($this->siteInfo('keywords')) ?>"/>
 <? endif; ?>
